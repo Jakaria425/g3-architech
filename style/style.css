@@ -1,0 +1,39 @@
+
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared items */
+
+.display-flex{
+    display: flex;
+}
+
+
+
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.title-nav{
+    justify-content: space-between;
+    align-items: center;
+}
+.title-nav>h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.nav{
+    gap: 20px; 
+}
+.nav-item{
+    list-style: none;
+}
+.nav-item>a{
+    text-decoration: none;
+}
+.title-nav .banner{
+    max-width: 1440px;
+   
+}
